@@ -12,13 +12,14 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('fisheries', function (Blueprint $table) {
-            $table->id();// Link to common items table
+            $table->id(); // Link to common items table
             $table->string('name')->nullable();
             $table->text('description')->nullable();
+            $table->text('fishing_ground')->nullable();
+            $table->text('scientific_name')->nullable();
+            $table->text('english_name')->nullable();
             $table->string('image')->nullable();
-            $table->string('type')->nullable();
             $table->timestamps();
-
         });
     }
 

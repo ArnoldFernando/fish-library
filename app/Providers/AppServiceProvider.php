@@ -26,25 +26,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-              View::composer('*', function ($view) {
-
-                $vegetable = vegetables::all();
-                $fruit = fruits::all();
-                $equipment = Equipment::where('type', 'agricultural')->get();
-                $fish = Fisheries::all();
-                $aquapments = Equipment::where('type', 'aquatic')->get();
-
-                $view->with([
-                    'vegetable' => $vegetable,
-                    'fruit' => $fruit,
-                    'equipment' => $equipment,
-                    'aquapments' => $aquapments,
-
-                    'fish' => $fish,
-
-                ]);
-            });
-
-
+        View::composer('*', function ($view) {
+            $fish = Fisheries::all();
+            $view->with([
+                'fish' => $fish,
+            ]);
+        });
     }
 }

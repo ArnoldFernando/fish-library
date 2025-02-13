@@ -52,8 +52,9 @@ class FisheriesController extends Controller
             'image' => $imageName,
             'name' => $request->name,
             'description' => $request->description,
-            'harvest' => $request->harvest,
-            'type' => $request->type,
+            'fishing_ground' => $request->fishing_ground,
+            'scientific_name' => $request->scientific_name,
+            'english_name' => $request->english_name,
         ]);
 
         return redirect()->back()->with('success', 'saved successfully');

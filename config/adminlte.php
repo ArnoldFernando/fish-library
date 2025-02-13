@@ -418,24 +418,24 @@ return [
             ],
         ],
 
-        [
-            'text' => 'Aquatic - Equipment',
-            'icon' => 'fas fa-fw fa-otter',
-            'submenu' => [
-                [
-                    'text' => 'add',
-                    'url' => 'admin/aquatic/create',
-                    'icon' => 'fas fa-fw fa-plus',
-                ],
+        // [
+        //     'text' => 'Aquatic - Equipment',
+        //     'icon' => 'fas fa-fw fa-otter',
+        //     'submenu' => [
+        //         [
+        //             'text' => 'add',
+        //             'url' => 'admin/aquatic/create',
+        //             'icon' => 'fas fa-fw fa-plus',
+        //         ],
 
-                [
-                    'text' => 'view',
-                    'url' => 'admin/aquatic',
-                    'icon' => 'fas fa-fw fa-book',
-                ],
+        //         [
+        //             'text' => 'view',
+        //             'url' => 'admin/aquatic',
+        //             'icon' => 'fas fa-fw fa-book',
+        //         ],
 
-            ],
-        ],
+        //     ],
+        // ],
     ],
 
     /*

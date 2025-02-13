@@ -1,7 +1,5 @@
 <x-app-layout>
     @can('admin-access')
-
-
         @section('content')
             <style>
                 .card-group {
@@ -46,8 +44,6 @@
                 <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                     <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                         <div class="p-6 text-gray-900">
-
-
                             <div class="row">
                                 <div class="col">
                                     <h1 class="text-center">Add Aquatic Equipments</h1>
@@ -66,23 +62,30 @@
                                                 </div>
                                                 <div class="row mt-3">
                                                     <div class="col-6">
-                                                        <label for="">Name of Fish</label>
+                                                        <label for="">Local Name of Fish</label>
                                                         <input type="text" class="form-control" name="name"
                                                             id="">
                                                     </div>
+
                                                     <div class="col-6">
-                                                        <label for="">Type of Fish</label>
-                                                        <input type="text" class="form-control" name="type"
+                                                        <label for="">Fishing Ground</label>
+                                                        <input type="text" class="form-control" name="fishing_ground"
                                                             id="">
                                                     </div>
                                                     <div class="col-6">
+                                                        <label for="">Scientific Name</label>
+                                                        <input type="text" class="form-control" name="scientific_name"
+                                                            id="">
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <label for="">English Name</label>
+                                                        <input type="text" class="form-control" name="english_name"
+                                                            id="">
+                                                    </div>
+
+                                                    <div class="col-12">
                                                         <label for="">Description</label>
                                                         <textarea name="description" class="form-control" id=""></textarea>
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <label for="">Best time to harvest</label>
-                                                        <input type="text" class="form-control" name="harvest"
-                                                            id="">
                                                     </div>
                                                 </div>
                                                 <div class="text-end">
