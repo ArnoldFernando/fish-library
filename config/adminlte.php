@@ -343,61 +343,61 @@ return [
             'icon' => 'fas fa-fw fa-comment',
         ],
 
-        ['header' => 'Agriculture'],
-        [
-            'text' => 'Fruit Corners',
-            'icon' => 'fas fa-fw fa-leaf',
-            'submenu' => [
-                [
-                    'text' => 'add',
-                    'url' => 'admin/fruits/create',
-                    'icon' => 'fas fa-fw fa-plus',
-                ],
+        // ['header' => 'Agriculture'],
+        // [
+        //     'text' => 'Fruit Corners',
+        //     'icon' => 'fas fa-fw fa-leaf',
+        //     'submenu' => [
+        //         [
+        //             'text' => 'add',
+        //             'url' => 'admin/fruits/create',
+        //             'icon' => 'fas fa-fw fa-plus',
+        //         ],
 
-                [
-                    'text' => 'view',
-                    'url' => 'admin/fruits',
-                    'icon' => 'fas fa-fw fa-book',
-                ],
+        //         [
+        //             'text' => 'view',
+        //             'url' => 'admin/fruits',
+        //             'icon' => 'fas fa-fw fa-book',
+        //         ],
 
-            ],
-        ],
+        //     ],
+        // ],
 
-        [
-            'text' => 'Vegetable Corners',
-            'icon' => 'fas fa-fw fa-seedling',
-            'submenu' => [
-                [
-                    'text' => 'add',
-                    'url' => 'admin/vegetables/create',
-                    'icon' => 'fas fa-fw fa-plus',
-                ],
-                [
-                    'text' => 'view',
-                    'url' => 'admin/vegetables',
-                    'icon' => 'fas fa-fw fa-book',
-                ],
+        // [
+        //     'text' => 'Vegetable Corners',
+        //     'icon' => 'fas fa-fw fa-seedling',
+        //     'submenu' => [
+        //         [
+        //             'text' => 'add',
+        //             'url' => 'admin/vegetables/create',
+        //             'icon' => 'fas fa-fw fa-plus',
+        //         ],
+        //         [
+        //             'text' => 'view',
+        //             'url' => 'admin/vegetables',
+        //             'icon' => 'fas fa-fw fa-book',
+        //         ],
 
-            ],
-        ],
+        //     ],
+        // ],
 
-        [
-            'text' => 'Equipments Corners',
-            'icon' => 'fas fa-fw fa-hammer',
-            'submenu' => [
-                [
-                    'text' => 'add',
-                    'url' => 'admin/equipments/create',
-                    'icon' => 'fas fa-fw fa-plus',
-                ],
-                [
-                    'text' => 'view',
-                    'url' => 'admin/equipments',
-                    'icon' => 'fas fa-fw fa-book',
-                ],
+        // [
+        //     'text' => 'Equipments Corners',
+        //     'icon' => 'fas fa-fw fa-hammer',
+        //     'submenu' => [
+        //         [
+        //             'text' => 'add',
+        //             'url' => 'admin/equipments/create',
+        //             'icon' => 'fas fa-fw fa-plus',
+        //         ],
+        //         [
+        //             'text' => 'view',
+        //             'url' => 'admin/equipments',
+        //             'icon' => 'fas fa-fw fa-book',
+        //         ],
 
-            ],
-        ],
+        //     ],
+        // ],
         ['header' => 'Aquatic'],
         [
             'text' => 'Fisheries',

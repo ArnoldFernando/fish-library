@@ -4,20 +4,20 @@
         <a href="index.html" class="logo d-flex align-items-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
             <!-- <img src="assets/img/logo.png" alt=""> -->
-            <h1 class="sitename">aquAPARRIculture</h1>
-            
+            <h1 class="sitename">FISH LIBRARY</h1>
+
         </a>
-         <!-- nav ng agri-->
+        <!-- nav ng agri-->
         <nav id="navmenu" class="navmenu">
             <ul>
                 <li><a href="{{ url('/') }}" class="{{ request()->is('/') ? 'active' : '' }}">Home<br></a></li>
-                <li><a href="{{ url('guest/fruits') }}" class="{{ request()->is('/') ? 'active' : '' }}">Fruits</a></li>
+                {{--  <li><a href="{{ url('guest/fruits') }}" class="{{ request()->is('/') ? 'active' : '' }}">Fruits</a></li>
                 <li><a href="{{ url('guest/vegetables') }}"
                         class="{{ request()->is('/') ? 'active' : '' }}">Vegetables</a></li>
                 <li> <a href="{{ url('guest/equipments') }}" class="{{ request()->is('/') ? 'active' : '' }}">Equipments</a></li>
                        <!-- nav ng fisheries -->
                 <li> <a href="{{ url('guest/aquipments') }}"
-                        class="{{ request()->is('/') ? 'active' : '' }}">Aqua-Equipments</a></li>
+                        class="{{ request()->is('/') ? 'active' : '' }}">Aqua-Equipments</a></li>  --}}
                 <li> <a href="{{ url('guest/fisheries') }}" class="{{ request()->is('/') ? 'active' : '' }}">Fish</a>
                 </li>
                 <li> <a href="{{ url('guest/about') }}" class="{{ request()->is('/') ? 'active' : '' }}">About</a>

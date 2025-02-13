@@ -31,11 +31,13 @@
                 <div class="col-xl-4">
                     <h1 data-aos="fade-up">Focus On What Matters</h1>
                     <blockquote data-aos="fade-up" data-aos-delay="100">
-                        <p> 
-                            Aquaparriculture is the practice of combining aquaculture (fish farming) with agriculture in water-based systems. 
-                        It promotes sustainable food production, enhances biodiversity, 
-                        and supports local economies by efficiently using water resources.
+                        <p>
+                            The Fish Library of Aparri, Cagayan is a resource center dedicated to the study and conservation
+                            of aquatic life.
+                            It promotes sustainable fishing practices, enhances marine biodiversity,
+                            and supports local communities by providing knowledge on efficient fishery management.
                         </p>
+
                     </blockquote>
                     <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
                         @if (Route::has('login'))
@@ -95,9 +97,9 @@
                                 <div class="item">
                                     <h3 class="mb-3">aquAPARRIculture</h3>
                                     <h4 class="mb-3">VISION</h4>
-                                    <p>To be a leading innovator in aquaparriculture, integrating sustainable aquatic 
+                                    <p>To be a leading innovator in aquaparriculture, integrating sustainable aquatic
                                         farming practices with precision agriculture to ensure food security,
-                                         protect aquatic ecosystems, and empower global communities..</p>
+                                        protect aquatic ecosystems, and empower global communities..</p>
                                 </div>
                             </div><!-- End slide item -->
 
@@ -105,10 +107,12 @@
                                 <div class="item">
                                     <h3 class="mb-3">aquaAPARRIculture</h3>
                                     <h4 class="mb-3">MISSION</h4>
-                                    <p>Our mission is to develop and promote eco-friendly aquaparriculture methods that enhance productivity,
-                                         reduce environmental impact, and support the livelihoods of farmers.
-                                          By combining advanced technology, education, and research, we aim to establish a harmonious balance between aquaculture and agriculture, 
-                                          ensuring long-term environmental sustainability and economic resilience.</p>
+                                    <p>Our mission is to develop and promote eco-friendly aquaparriculture methods that
+                                        enhance productivity,
+                                        reduce environmental impact, and support the livelihoods of farmers.
+                                        By combining advanced technology, education, and research, we aim to establish a
+                                        harmonious balance between aquaculture and agriculture,
+                                        ensuring long-term environmental sustainability and economic resilience.</p>
                                 </div>
                             </div><!-- End slide item -->
 
@@ -116,11 +120,17 @@
                                 <div class="item">
                                     <h3 class="mb-3">aquAPARRIculture</h3>
                                     <h4 class="mb-3">GOALS</h4>
-                                    <p>1.Sustainability: Implement practices that minimize ecological footprints, ensuring the health of aquatic ecosystems and adjacent farmlands.</p>
-                                        <p>  2.Innovation: Develop and deploy cutting-edge technologies to optimize aquaparriculture processes and maximize yields.</p>
-                                            <p>3.Education and Training: Provide resources and training to stakeholders, empowering communities with the knowledge and skills needed to adopt aquaparriculture practices.</p>
-                                                <p>4.Global Reach: Expand the adoption of aquaparriculture in regions with food insecurity, offering sustainable solutions tailored to local environments.</p>
-                                                    <p>5.Collaboration: Foster partnerships with governments, NGOs, and the private sector to support research, funding, and policy-making efforts.</p>
+                                    <p>1.Sustainability: Implement practices that minimize ecological footprints, ensuring
+                                        the health of aquatic ecosystems and adjacent farmlands.</p>
+                                    <p> 2.Innovation: Develop and deploy cutting-edge technologies to optimize
+                                        aquaparriculture processes and maximize yields.</p>
+                                    <p>3.Education and Training: Provide resources and training to stakeholders, empowering
+                                        communities with the knowledge and skills needed to adopt aquaparriculture
+                                        practices.</p>
+                                    <p>4.Global Reach: Expand the adoption of aquaparriculture in regions with food
+                                        insecurity, offering sustainable solutions tailored to local environments.</p>
+                                    <p>5.Collaboration: Foster partnerships with governments, NGOs, and the private sector
+                                        to support research, funding, and policy-making efforts.</p>
                                 </div>
                             </div><!-- End slide item -->
 
@@ -128,11 +138,16 @@
                                 <div class="item">
                                     <h3 class="mb-3">aquAPARRIculture</h3>
                                     <h4 class="mb-3">OBJECTIVES</h4>
-                                    <p>1.Conduct research to enhance the integration of aquaculture systems with agricultural practices, optimizing water and nutrient cycles.
-                                        2.Develop scalable models of aquaparriculture for different environmental and socio-economic contexts.
-                                        3.Establish demonstration farms and learning centers to showcase the benefits and methods of aquaparriculture.
-                                        4.Advocate for policy changes that incentivize sustainable aquaparriculture practices.
-                                        5.Monitor and evaluate the environmental and economic impacts of aquaparriculture projects to continuously refine and improve methods.</p>
+                                    <p>1.Conduct research to enhance the integration of aquaculture systems with
+                                        agricultural practices, optimizing water and nutrient cycles.
+                                        2.Develop scalable models of aquaparriculture for different environmental and
+                                        socio-economic contexts.
+                                        3.Establish demonstration farms and learning centers to showcase the benefits and
+                                        methods of aquaparriculture.
+                                        4.Advocate for policy changes that incentivize sustainable aquaparriculture
+                                        practices.
+                                        5.Monitor and evaluate the environmental and economic impacts of aquaparriculture
+                                        projects to continuously refine and improve methods.</p>
                                 </div>
                             </div><!-- End slide item -->
 
