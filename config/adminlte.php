@@ -63,7 +63,7 @@ return [
     |
     */
 
-    'logo' => '<b>AquAparriCulture</b>  ',
+    'logo' => '<b>Fish Library</b>  ',
     'logo_img' => '/logo/logo.jpg',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
